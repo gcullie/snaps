@@ -7,6 +7,9 @@ description: |
 grade: devel
 confinement: strict
 base: core20
+architectures:
+  - build-on: arm32v7
+    run-on: arm32v7
 
 parts:
   ros-demos:
